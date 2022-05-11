@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+<form action="" method="post">
+       {% csrf_token %} 
+   <label for="fname"> Name</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="Phone_No">Phone_No</label><br>
+  <input type="text" id="Phone_No" name="Phone_No"><br>
+    <label for="No">ID<br></label><br >
+    <input type="number" id="id_no" name="ID"><br>
+        
+    
+    <input type="submit" value="Submit">
+</form>
+    <br />
+    <br />
+    <table border="1">
+        <tr>
+            <tr>
+          
+            <th>Name</th>
+
+               <th>Phone_No</th>
+
+               <th>ID</th>
+           
+        </tr>
+       {% for i in any_object %}
+     
+        <tr>
+     
+            <td>{{i.Name}}</td>
+        
+            <td>{{i.Phone_No}}</td>
+            
+            <td>{{i.ID}}</td>
+        </tr>   
+{% endfor %}
+    </table>
+</body>
+</html>
