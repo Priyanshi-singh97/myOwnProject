@@ -23,7 +23,8 @@ def insert_api(request):
                     value2=request.POST['Phone_No']
                     value3=request.POST['ID']
 
-                    db=db_connection.connection()
+                    #db=db_connection.connection()
+                    db=db_connection.db_connect.connection()
                     #cursor()-allow to execute statement in given connection or address
                     myconnection= db.cursor()
                     myconnection.execute("insert into Emp_Details(Name,Phone_No,ID) value ('"+value1+"','"+value2+"','"+value3+"');")
