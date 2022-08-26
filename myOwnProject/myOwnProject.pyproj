@@ -13,7 +13,7 @@
     <ProjectGuid>1e2a4d5e-ce37-4011-b95b-89e466728b01</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>middleware.py</StartupFile>
+    <StartupFile>stringPractice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="addNextToElement.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\db_connection.py">
       <SubType>Code</SubType>
     </Compile>
@@ -59,6 +62,9 @@
     <Compile Include="app\music\msc1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="app\nicklflox.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\ormFile.py">
       <SubType>Code</SubType>
     </Compile>
@@ -66,6 +72,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="app\sohail.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\subset.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="app\tests.py" />
@@ -76,20 +85,48 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CA_MI_FireBase_BannerClick_test.py" />
+    <Compile Include="check_key_dict.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datacleaning.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="email_alert.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="genrators.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="hackerRank.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddTwoNumber.py" />
+    <Compile Include="immediateSmaller_element.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inetrviw_swetan.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="key.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="list_compreshenson.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="manage.py" />
     <Compile Include="middleware.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MissingNumber.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modul_intervie.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Multiply_two_strings.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="myOwnProject\2ndLargestNO.py">
@@ -111,10 +148,40 @@
     <Compile Include="myOwnProject\settings.py" />
     <Compile Include="myOwnProject\urls.py" />
     <Compile Include="myOwnProject\wsgi.py" />
+    <Compile Include="prince.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="reverseLlist.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="romanNumber.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="scheduler.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="string _concat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="stringPractice.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="superman_logo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="swap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sychronization.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="palindrom_Num.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="triangle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="upper and lower.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
