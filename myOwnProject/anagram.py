@@ -1,17 +1,13 @@
 wk = {"act","god","cat","dog","tac"}
-df=[]
-df1=[]
-for i in wk:
-    df.append(i)
-print(df)
 
-for e in range(len(df)):
-    e6=df[e]
-    print(e6)
-    e1=" ".join(e6)
-    print(e1)
-    e2=e1.split(" ")
-    c=list(df[e])
-    if e1 in c:
-        print(e1)
-   
+
+for i in wk:
+
+   for j in wk:
+        sorted_str1 = sorted(i)
+        sorted_str2 = sorted(j)
+        if sorted_str1==sorted_str2:
+            print(" string is anagram")
+
+        else:
+            print("string is not anagram")
