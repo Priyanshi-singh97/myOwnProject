@@ -1,9 +1,12 @@
-n=20
-a=[]
-for i in range(n):
-    print(i)
-    if i<=0:
-        a.append(i)
+n=[1,5,2,4,6,7,9]
+n1=[]
+#make this list into fibonic series
+for i in range(len(n)):
+    if i<=1:
+        n1.append(i)
     else:
-        j=i+1
-        n[i]
+        n2=(i-1)+ (i-2)
+        n1.append(n2)
+
+print(n1)
+
