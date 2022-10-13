@@ -10,8 +10,7 @@ from app import db_connection
 
 def insert_api(request):
         try:
-            #print(request.POST)   {% csrf_token %} 
-            #print(request.GET)   
+             
             if (request.method=='GET'):
 
                 return render(request, "if_else.html")
@@ -19,10 +18,14 @@ def insert_api(request):
            
             if(request.method=='POST'):
                 try:
-                    value1=request.POST['fname']
-                    value2=request.POST['Phone_No']
-                    value3=request.POST['ID']
-
+                    
+                    ID=josn_data['ID']
+                    compony_name=request.POST['compony_name']
+                    Email_id=request.POST['Email_id']
+                    compony_code=request.POST['compony_code']
+                    strgenth=request.POST['strgenth']
+                    website=request.POST['website']
+                    create_time=request.POST['create_time']
                     #db=db_connection.connection()
                     db=db_connection.db_connect.connection()
                     #cursor()-allow to execute statement in given connection or address

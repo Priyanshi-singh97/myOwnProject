@@ -1,15 +1,23 @@
-missing=[6,1,2,8,3,4,7,10,5]
-miss=[]
-missing.sort()
-print(missing)
+def missing(a):
+    #a=list(set(k))
+    a.sort()
+    
+    b=[]
+    
+    l=a[0]
+    v=a[-1]
+    #print(l)
+    for i in range(l,v):
+            b.append(i)
+            if i in a:
+                pass
+            else:
+                print("missing:",i)
+    print(b)
 
-for i in range(len(missing)):
-    a=i
-    b=i+1
-    if b in missing:
-        pass
-    else :
-        print(b)
-        miss.append(b)
+
+if __name__=="__main__":
+    input=[1,2,2,4,6,8,7]
+    print("missing no is:",missing(input))
         
         
