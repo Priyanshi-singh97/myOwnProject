@@ -13,7 +13,7 @@
     <ProjectGuid>1e2a4d5e-ce37-4011-b95b-89e466728b01</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
-    <StartupFile>LCM.py</StartupFile>
+    <StartupFile>from_back_reverse.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -122,7 +122,13 @@
     <Compile Include="encapsulation.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="factorial_of_num.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="fibnicSeries.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="from_back_reverse.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="genrators.py">
@@ -198,6 +204,9 @@
     <Compile Include="myOwnProject\urls.py" />
     <Compile Include="myOwnProject\wsgi.py" />
     <Compile Include="nestedList.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="openCV.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PangramString.py">
@@ -293,6 +302,7 @@
     <Content Include="app\music\Lut_Gaye.mp3" />
     <Content Include="app\templates\If_else.html" />
     <Content Include="Lut Gaye.mp3" />
+    <Content Include="priya_openCV.png" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

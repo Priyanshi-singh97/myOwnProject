@@ -8,3 +8,11 @@ for i in range(int(l/2)):
     numbers[l-i-1]=n
 
 print(numbers)
+
+
+
+#2nd way
+#h=[]
+#for i in numbers:
+#    h.insert(0,i)
+#    print(h)
