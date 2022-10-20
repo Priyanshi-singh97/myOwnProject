@@ -19,8 +19,7 @@
 #    print("invalid")
 
 #checking comman value
-L1 = ['Java', 'Python', 'Javascript','C++','Java', 'C','Swift']
-
+L1 = ['Java', 'Python', 'Javascript','C++','Java', 'C','Swift','C#']
 for i in L1:
     if L1.count(i)>1:
         print(i)
