@@ -1,21 +1,28 @@
-#num = [1, 7, 4, 3, 4, 8, 7]
-def vb(num,n):
-    for i in num:
-        count=0
-        for j in num:
-            if i==j:
-                print(i)
-                count+=1
-        if count==n:
-            return i
-    return -1
+
+#def vb(num,n):
+#    l=[]
+#    for i in num:
+        
+#        for j in num:
+         
+#            if i==j:
+#                l.append(i)
+#    print(l)
+    
+
+#if __name__=="__main__":
+num = [1, 7, 4, 3, 4, 8, 7]
+#    n = 2
+#    vb(num, n)
+
+print(num[2:])
 
 
-if __name__=="__main__":
-    num = [1, 7, 4, 3, 4, 8, 7];
-    n = 2
-    print(vb(num, n))
-
+#l = sorted(map(int, input().rstrip().split()))
+#m=len(l)
+#k=(sum(l))
+#v=k%m
+#print(v)
 
 
 
