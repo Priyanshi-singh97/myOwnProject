@@ -6,14 +6,23 @@
 
 
 
-a='jaj'
-str=''
-for i in a:
-   str= i+str
+#a='jaj'
+#str=''
+#for i in a:
+#   str= i+str
    
    
-if a==str:
-    print('pass')
+#if a==str:
+#    print('pass')
     
-else:
-    print("invalid")
+#else:
+#    print("invalid")
+
+#checking comman value
+L1 = ['Java', 'Python', 'Javascript','C++','Java', 'C','Swift']
+
+for i in L1:
+    if L1.count(i)>1:
+        print(i)
+
+
