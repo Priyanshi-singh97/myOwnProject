@@ -132,7 +132,10 @@ def get_AlertDate_and_email():
         print("test") 
         t = datetime.datetime.now()
         Today_date=t.strftime('%d-%m-%Y')
-        _subject='TSB Incremental db refreshed success : '+str(Today_date)+''
+        yesterday = date.today() - timedelta(days=1)
+        yesterday_date=yesterday.strftime('%d-%m-%Y')
+        _subject='TSB Incremental ADF refreshed success : '+str(Today_date)+''
+        report = get_sqldata_query("select * from rp_scheduled_procedure_call_log where DATE(CREATION_TIME) = DATE(NOW());") 
         report = get_sqldata_query("select * from rp_scheduled_procedure_call_log where DATE(CREATION_TIME) = DATE(NOW());") 
         
      
@@ -156,7 +159,7 @@ def get_AlertDate_and_email():
                 sendMail(send_to='', subject=_subject, Content=_content, data=report,tn_count=len(report))
                 print(report)
             else:
-                _subject2='TSB Incremental db refreshed failed : '+str(Today_date)+''
+                _subject2='TSB Incremental ADF refreshed failed : '+str(Today_date)+''
                 _content2 = 'Hi Team Db refresh failed, please check the scheduled stored procedure.<br/> Success Count:'+str(Success_count)+' <br/> Failure Count: '+str(Failure_count)+'.'
                 sendMail(send_to='', subject=_subject2, Content=_content2,data=report,tn_count=len(report))
         else:

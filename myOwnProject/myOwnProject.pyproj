@@ -93,9 +93,10 @@
     <Compile Include="biqQuery.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="CA_Email_alert_ca.py" />
+    <Compile Include="payRoll_calculation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="TSB_Email_alert_ca.py" />
-    <Compile Include="CA_MI_FireBase_BannerClick_test.py" />
     <Compile Include="check_key_dict.py">
       <SubType>Code</SubType>
     </Compile>
