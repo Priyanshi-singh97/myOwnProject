@@ -8,9 +8,7 @@ for i in range(int(l/2)):
     numbers[l-i-1]=n
 
 print(numbers)
-
-
-
+pass
 #2nd way
 #h=[]
 #for i in numbers:
