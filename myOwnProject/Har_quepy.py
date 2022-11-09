@@ -5,16 +5,16 @@
 
 #print(xml_string2)
 
-a=[[1,1]]
-b=a+a
-#[[1,1],[1,1]]
-c=b[0][0]+99
-b[0][0]=100
-print(b)
+#a=[[1,1]]
+#b=a+a
+##[[1,1],[1,1]]
+#c=b[0][0]+99
+#b[0][0]=100
+#print(b)
 
-d=[[1,2],[3,4]]
-d[0][0]=100
-print(d)
+#d=[[1,2],[3,4]]
+#d[0][0]=100
+#print(d)
 
 #import pandas as pd
 #animal = 'cat dog cat fish dog cat cat' 
@@ -32,25 +32,43 @@ print(d)
 #    print(df)
 
 
-s='abbccccda'
+#s='abbbccccda'
 
-v=''
-count=0
-#op='1a2b4c1d1a'
-for i in s:
-    count(s[i])
-
-print(v)
+#v=''
+#count=0
+###op='1a2b4c1d1a'
+#for i in s:
+#    if i in s:
+#        count=count+1
+#        k=str(count)
+#        v+=(k+ i)
+#        #'+str(Today_date)+'
+       
+#print(v)
 
 
 
 #a = [10, 3.3, 4.6, 3.3, 3.5, 6.1, 7.1, 7, 2]
-#a=[]
+
 ##Out[5]: {2: 1, 3.3: 2, 3.5: 3, 4.6: 4, 6.1: 5, 7: 6, 7.1: 7, 10: 8
 #l=len(a)
 #k=sorted(a)
-#for i in range(len(k)):
-#   c= k[i] +':'+ l-i
-#   a.append(c)
+#l={i:idx  for idx, i in enumerate(k)}
+#print(l)
 
-#print(a)
+A= [1,2,3,5]
+k=len(A)
+l=[]
+for i in A:
+    f=k+1
+    for j in range(1,f):
+       if i==j:
+           l.append(i)
+           break
+       else:
+           print(j)
+        
+
+
+
+
